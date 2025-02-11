@@ -57,7 +57,7 @@ export const PROJECTS = [
     title:"NodeJS CLI for Cryptocurrency Prices",
     image:project4,
     description:"A simple, lightweight command-line tool to fetch real-time cryptocurrency prices using public APIs. Easily check Crypto rates in seconds. Perfect for developers and crypto enthusiasts. Check it out using the github link below",
-    technologies:["Javascript", "Reactjs", "NodeJs", "MongoDB", "Express.js"],
+    technologies:["Javascript", "NodeJs"],
     githubLink:"https://github.com/unnati06/Nodejs-CLI-for-crypto",
   }
  
@@ -65,6 +65,6 @@ export const PROJECTS = [
 
 export const CONTACT = {
   address: "unnatisrivastava0603@gmail.com",
-  phoneNo: "www.linkedin.com/in/unnatisrivastava",
+  phoneNo: "https://www.linkedin.com/in/unnatisrivastava/",
   email: "https://github.com/unnati06",
 };
