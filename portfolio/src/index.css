@@ -8,7 +8,7 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
+  color: rgba(147, 51, 234, 5.0);
   background-color: #242424;
 
   font-synthesis: none;
@@ -17,6 +17,31 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.glowing-border::after {
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    rgba(147, 51, 234, 5) 0%,
+    rgba(147, 51, 234, 5.5) 50%,
+    rgba(147, 51, 234, 5) 100%
+  );
+  filter: blur(2px);
+  animation: glow-animation 3s infinite;
+}
+
+@keyframes glow-animation {
+  0%, 100% {
+    opacity: 0.8;
+  }
+  50% {
+    opacity: 1;
+  }
+}
 /* .cormorant-garamond-light-italic {
   font-family: "Cormorant Garamond", serif;
   font-weight: 300;

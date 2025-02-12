@@ -6,7 +6,7 @@ import { FaGithub } from "react-icons/fa"
 const Projects = () => {
   return (
     <div className="border-b border-neutral-900 pb-4">
-      <motion.h1 whileInView={{opacity:1, y:0}} initial={{opacity:0, y:-100}} transition={{duration:0.5}} className="my-20 text-center text-4xl">My Projects</motion.h1>
+      <motion.h1 whileInView={{opacity:1, y:0}} initial={{opacity:0, y:-100}} transition={{duration:0.5}} className="my-20 text-center text-4xl">My Projects.</motion.h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-6">
       {PROJECTS.map((project, index) => (
           <motion.div 
@@ -22,11 +22,11 @@ const Projects = () => {
             className="w-fit bg-neutral-900 cursor-pointer p-5 rounded-lg shadow-lg hover:shadow-xl transition duration-300"
           >
             {/* Project Image */}
-            <img 
+            {/* <img 
               src={project.image} 
               className="w-full h-40 object-cover rounded-md mb-4" 
               alt={project.title} 
-            />
+            /> */}
 
             {/* Project Title */}
             <h6 className="mb-2 font-semibold text-lg">{project.title}</h6>
