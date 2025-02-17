@@ -57,7 +57,7 @@ const Navbar = () => {
       {isOpen && (
         <div className="fixed inset-0 bg-black bg-opacity-90 z-40 flex flex-col items-center justify-center md:hidden">
           <ul className="flex flex-col items-center space-y-8 text-xl">
-            {['home', 'Experience', 'projects', 'skills', 'contact'].map((item) => (
+            {['home', 'experience', 'projects', 'skills', 'contact'].map((item) => (
               <li key={item}>
                 <span
                   onClick={() => {
