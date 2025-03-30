@@ -35,7 +35,7 @@ export const PROJECTS = [
     image: project3,
     description:"Built an interactive, AI-enhanced code editor with real-time collaborative features, enabling seamless multi-user coding sessions. Optimized synchronization efficiency, reducing latency by 40%, and enhanced developer productivity by 30% through intelligent code suggestions and seamless room-based sharing.",
     technologies:["React.js", "Node.js","Socket.io","Codemirror","Redis"],
-    githubLink:"https://github.com/unnati06/AI-powered-Code-Editor",
+    githubLink:"https://collaborative-code-editor-black.vercel.app/",
   },
   {
     title: "WEBRTC Based video calling website (Zencall)",
@@ -43,7 +43,7 @@ export const PROJECTS = [
     description:
       "Developed a feature-rich video calling platform using WebRTC, incorporating scheduling and recording functionalities. Enhanced virtual communication efficiency, improved user experience, and boosted user retention by 25% through seamless connectivity, high-quality streaming, and intuitive interface design.",
     technologies: ["React", "Node.js", "WebRTC", "MongoDB", "Cloudinary"],
-    githubLink:"https://github.com/unnati06/ZenCall",
+    githubLink:"https://zencall-1.onrender.com",
   },
   {
     title: "Job Tracking Website",
@@ -51,7 +51,14 @@ export const PROJECTS = [
     description:
       "Developed a dynamic job tracking website using React.js, Node.js, Express, and MongoDB, enabling seamless job application management. Enhanced user experience and engagement by 40% through intuitive UI, real-time updates, and optimized performance, streamlining job tracking for professionals.",
     technologies: ["Javascript", "Reactjs", "NodeJs", "MongoDB", "Express.js"],
-    githubLink:"https://github.com/unnati06/TrackIt",
+    githubLink:"https://trackit-1mxs.onrender.com",
+  },
+  {
+    title:"Real Time Location Tracker",
+    image:project2,
+    description:"Created a real time location tracker using node js which can help users track a given location in real-time",
+    technologies:["Node js", "ejs","javascript"],
+    githubLink:"https://real-time-tracker-b0zv.onrender.com"
   },
   {
     title:"NodeJS CLI for Cryptocurrency Prices",

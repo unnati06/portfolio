@@ -55,7 +55,7 @@ const Projects = () => {
                 className="flex items-center gap-2 text-white bg-neutral-800 hover:bg-neutral-700 px-4 py-2 rounded-lg transition"
               >
                 <FaGithub className="text-xl" />
-                View on GitHub
+                View Projects
               </a>
               </div>
           </motion.div>
