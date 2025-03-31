@@ -46,6 +46,13 @@ export const PROJECTS = [
     githubLink:"https://zencall-1.onrender.com",
   },
   {
+    title:"LLM Context Manager",
+    image:project1,
+    description:" Implemented real-time context monitoring and smart summarization with MutationObserver and custom algorithms, reducing manual context re-entry time by 50% for users switching between multiple LLMs",
+    technologies:["javascript","AI","LLM"],
+    githubLink:"https://github.com/unnati06/chrome-ext",
+  },
+  {
     title: "Job Tracking Website",
     image: project2,
     description:
@@ -60,6 +67,7 @@ export const PROJECTS = [
     technologies:["Node js", "ejs","javascript"],
     githubLink:"https://real-time-tracker-b0zv.onrender.com"
   },
+  
   {
     title:"NodeJS CLI for Cryptocurrency Prices",
     image:project4,
