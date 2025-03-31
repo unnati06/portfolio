@@ -48,7 +48,7 @@ export const PROJECTS = [
   {
     title:"LLM Context Manager",
     image:project1,
-    description:" Implemented real-time context monitoring and smart summarization with MutationObserver and custom algorithms, reducing manual context re-entry time by 50% for users switching between multiple LLMs",
+    description:" Developed an innovative Chrome extension using JavaScript, Chrome APIs, and HTML5/CSS3, enabling seamless context transfer across LLM platforms (e.g., ChatGPT, Claude), enhancing user productivity by 30%Implemented real-time context monitoring and smart summarization with MutationObserver and custom algorithms, reducing manual context re-entry time by 50% for users switching between multiple LLMs",
     technologies:["javascript","AI","LLM"],
     githubLink:"https://github.com/unnati06/chrome-ext",
   },
