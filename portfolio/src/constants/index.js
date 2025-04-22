@@ -35,7 +35,7 @@ export const PROJECTS = [
     image: project3,
     description:"Built an interactive, AI-enhanced code editor with real-time collaborative features, enabling seamless multi-user coding sessions. Optimized synchronization efficiency, reducing latency by 40%, and enhanced developer productivity by 30% through intelligent code suggestions and seamless room-based sharing.",
     technologies:["React.js", "Node.js","Socket.io","Codemirror","Redis"],
-    githubLink:"https://collaborative-code-editor-black.vercel.app/",
+    githubLink:"https://github.com/unnati06/Collaborative-Code-Editor",
   },
   {
     title: "WEBRTC Based video calling website (Zencall)",
@@ -43,12 +43,12 @@ export const PROJECTS = [
     description:
       "Developed a feature-rich video calling platform using WebRTC, incorporating scheduling and recording functionalities. Enhanced virtual communication efficiency, improved user experience, and boosted user retention by 25% through seamless connectivity, high-quality streaming, and intuitive interface design.",
     technologies: ["React", "Node.js", "WebRTC", "MongoDB", "Cloudinary"],
-    githubLink:"https://zencall-1.onrender.com",
+    githubLink:"https://github.com/unnati06/ZenCall",
   },
   {
     title:"LLM Context Manager",
     image:project1,
-    description:" Developed an innovative Chrome extension using JavaScript, Chrome APIs, and HTML5/CSS3, enabling seamless context transfer across LLM platforms (e.g., ChatGPT, Claude), enhancing user productivity by 30%Implemented real-time context monitoring and smart summarization with MutationObserver and custom algorithms, reducing manual context re-entry time by 50% for users switching between multiple LLMs",
+    description:" Developed an innovative Chrome extension using JavaScript, Chrome APIs, and HTML5/CSS3, enabling seamless */*5/8context transfer across LLM platforms (e.g., ChatGPT, Claude), enhancing user productivity by 30%Implemented real-time context monitoring and smart summarization with MutationObserver and custom algorithms, reducing manual context re-entry time by 50% for users switching between multiple LLMs",
     technologies:["javascript","AI","LLM"],
     githubLink:"https://github.com/unnati06/chrome-ext",
   },
@@ -58,14 +58,14 @@ export const PROJECTS = [
     description:
       "Developed a dynamic job tracking website using React.js, Node.js, Express, and MongoDB, enabling seamless job application management. Enhanced user experience and engagement by 40% through intuitive UI, real-time updates, and optimized performance, streamlining job tracking for professionals.",
     technologies: ["Javascript", "Reactjs", "NodeJs", "MongoDB", "Express.js"],
-    githubLink:"https://trackit-1mxs.onrender.com",
+    githubLink:"https://github.com/unnati06/TrackIt",
   },
   {
     title:"Real Time Location Tracker",
     image:project2,
     description:"Created a real time location tracker using node js which can help users track a given location in real-time",
     technologies:["Node js", "ejs","javascript"],
-    githubLink:"https://real-time-tracker-b0zv.onrender.com"
+    githubLink:"https://github.com/unnati06/Real-Time-Tracker"
   },
   
   {
